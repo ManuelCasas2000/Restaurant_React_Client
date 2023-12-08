@@ -10,6 +10,7 @@ yarn dev
 ## Lenguaje y paquetes usados
 Para este desarrollo se ha utilizado el lenguaje:
 - React vite 4.1.0
+
 Y los módulos:
 - React Query
 - Bootstrap
