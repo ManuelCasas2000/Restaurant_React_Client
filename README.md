@@ -1,4 +1,4 @@
-# Proyecto: Página web para restaurante
+# Proyecto: Página web para restaurante / Módulo Cliente
 # Autor: Manuel Casas
 
 # Instalación
