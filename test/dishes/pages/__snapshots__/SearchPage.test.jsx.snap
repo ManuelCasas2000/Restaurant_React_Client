@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <SearchPage/> Debe de mostrarse correctamente con valores por defecto 1`] = `
+<div>
+  <div
+    class="alert alert-dark mt-5 animate__animated animate__bounceInDown"
+  >
+    <h1>
+      Search your dishes by name
+    </h1>
+  </div>
+  <br />
+  <hr />
+  <div
+    class="row  animate__animated animate__fadeIn"
+  >
+    <div
+      class="col-4"
+    >
+      <form
+        aria-label="form"
+      >
+        <input
+          autocomplete="off"
+          class="form-control"
+          name="searchText"
+          placeholder="Search a dish"
+          type="text"
+          value=""
+        />
+        <button
+          class="btn btn-outline-secondary mt-3"
+        >
+          Search
+        </button>
+      </form>
+    </div>
+    <div
+      class="col-8"
+    >
+      <div
+        class="alert alert-secondary animate__animated animate_fadeIn"
+      />
+      <div
+        aria-label="no-result"
+        class="alert alert-danger animate__animated animate_fadeIn"
+        style="display: none;"
+      >
+        There is not results with 
+        <b />
+      </div>
+    </div>
+    <div
+      id="altura-search"
+    />
+  </div>
+</div>
+`;

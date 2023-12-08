@@ -1,0 +1,196 @@
+/* Modal */
+  .ReactModalPortal > div {
+    opacity: 0;
+  }
+  
+  .ReactModalPortal .ReactModal__Overlay {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    transition: opacity .2s ease-in-out;
+    z-index: 999;
+  }
+  
+  .modal-fondo {
+    background-color: rgba(0, 0, 0, 0.3);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    position: fixed;
+  }
+  
+  .ReactModalPortal .ReactModal__Overlay--after-open {
+    opacity: 1;
+  }
+  
+  .ReactModalPortal .ReactModal__Overlay--before-close {
+    opacity: 0;
+  }
+  
+  .modal {
+    background: white;
+    border-radius: 5px;
+    color: rgb(51, 51, 51);
+    display: inline;
+    max-height: 620px;
+    max-width: 500px;
+    outline: none;
+    padding: 10px;
+  }
+  
+  /* FABS*/
+  .fab-new {
+    border-radius: 100%;
+    bottom: 25px;
+    font-size: 25px;
+    /* padding: 25px; */
+    position: fixed;
+    right: 25px;
+    width: 80px;
+    height: 80px;
+  }
+  
+  .fab-danger {
+    border-radius: 100%;
+    bottom: 25px;
+    font-size: 20px;
+    position: fixed;
+    left: 25px;
+    width: 80px;
+    height: 80px;
+  }
+
+  .fab-logout {
+    border-radius: 100%;
+    bottom: 25px;
+    font-size: 20px;
+    position: fixed;
+    left: 50%;
+    width: 95px;
+    height: 85px;
+  }
+
+  .fab-nets {
+    border-radius: 40%;
+    bottom: 50px;
+    font-size: 30px;
+    left: 50px;
+    width: 80px;
+    height: 80px;
+    
+  }
+
+  .fab-help {
+    border-radius: 100%;
+    bottom: 25px;
+    font-size: 20px;
+    position: fixed;
+    left: 80%;
+    width: 95px;
+    height: 85px;
+  }
+
+  /* Temporal hasta que tenga contenido*/
+  #altura {
+    height: 600px
+  } 
+
+  #altura-search {
+    height: 280px
+  } 
+
+  #height-dish {
+    height: 580px
+  }
+
+
+  .modalCookies {
+    left: 30%;
+    max-height: 460px;
+    max-width: 620px;
+    border-radius: 5%;
+    border-style: outset;
+  }
+
+  .nolink {
+    text-decoration: none;
+    color: white;
+  }
+
+  .userNavBar {
+    font-style: italic;
+  }
+
+  .carouselhome {
+    border-radius: 50px;
+
+  } 
+
+  .searchM {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    grid-gap: 20px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .botoncard {
+    position: relative;
+    left: 35%;
+  }
+
+  .cookies {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(54, 54, 54);
+    color: white;
+    font-family: arial;
+    text-align: center;
+    margin: 1px;
+}
+
+.cookies__botones {
+    padding: 1rem;
+    text-align: center;
+}
+ 
+.cookies__boton {
+  margin-left: 10px;
+}
+
+.cookies__titulo {
+  margin-top: 8px;
+}
+ 
+.cookies__texto {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.imagenes_carrousel {
+  position: sticky;
+}
+
+.spinner {
+  width: 6rem; 
+  height: 6rem;
+}
+
+.loader {
+    animation: spin-animation 1.5s infinite linear;
+    display: block;
+}
+
+@keyframes spin-animation {
+    0% {
+      transform: rotate(0deg); 
+    }
+    100% {
+      transform: rotate(365deg); 
+    }
+}
+  
+  
